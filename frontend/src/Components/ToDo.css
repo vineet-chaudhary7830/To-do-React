@@ -1,0 +1,29 @@
+.todo{
+    position: relative;
+    margin-top: 1rem;
+    /* background: #000; */
+    background: linear-gradient(to right,#606c88,#3f4c6b);
+    color: #fff;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+}
+.text{
+    background: linear-gradient(to right,#606c88,#3f4c6b);
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+}
+.icons{
+    background: #3f4c6b;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    gap: 0.5rem;
+}
+.icon{
+    background: #3f4c6b;
+    cursor: pointer;
+    font-size: 20px;
+
+}
